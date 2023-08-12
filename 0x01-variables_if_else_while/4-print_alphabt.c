@@ -1,8 +1,7 @@
 #include <stdio.h>
-
-/**
- * main -  entry point
- * Return always 0
+/*
+ * Main - entry point
+ * Return: Always 0 (Success)
  */
 
 	int main(void)
@@ -12,6 +11,7 @@
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
+	if (alphabet != 'e' && alphabet != 'q')
 	putchar(alphabet);
 
 }
