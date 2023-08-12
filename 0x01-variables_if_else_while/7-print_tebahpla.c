@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -  entry point
+ * main -  entry points the lowercase alphabet in reverse
  * Return: Always 0 (Success)
  */
 
@@ -10,7 +10,7 @@
 
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alphabet = 'z'; alphabet <= 'a'; alphabet--)
 {
 	putchar(alphabet);
 
