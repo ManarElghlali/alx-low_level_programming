@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main -  print whether the number n is positive or negative
+ * main - Prints the alphabet in lowercase
  * Return: Always 0 (Success)
  */
 
