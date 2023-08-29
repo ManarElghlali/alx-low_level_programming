@@ -7,7 +7,7 @@
  * string in which to search for the substring
 * @needle: A pointer to the null-terminated
  * string that represents the substring to be found
- * Returns: a null pointer.
+ * Return: a null pointer
  *
  */
 char *_strstr(char *haystack, char *needle)
@@ -22,13 +22,11 @@ char *_strstr(char *haystack, char *needle)
 		index = 0;
 		if (haystack[index] == needle[index])
 		{
-			do
-			{
+			do {
 				if (needle[index + 1] == '\0')
 					return (haystack);
 				index++;
-			}
-			while (haystack[index] == needle[index]);
+			} while (haystack[index] == needle[index]);
 		}
 		haystack++;
 	}

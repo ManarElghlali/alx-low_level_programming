@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_memcpy - function that is used to copy a specified number 
+ *_memcpy - function that is used to copy a specified number
  * of bytes from one memory location to another
  * @dest: A pointer to the destination memory where the data will be copied.
  * @src: A pointer to the source memory from where the data will be copied.

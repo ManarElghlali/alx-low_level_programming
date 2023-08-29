@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _strchr - used to find the first occurrence of a specified character 
+ * _strchr - used to find the first occurrence of a specified character
  * in a given null-terminated string
- * @s: A pointer to the null-terminated string in which to search for the character.
+ * @s: A pointer to the null-terminated string in which to search for
+ * the character.
  * @c: The character to search for, specified as an integer value
  *
- * Return always 0.
+ * Return: always 0.
  */
 
 char *_strchr(char *s, char c)
